@@ -1,0 +1,4 @@
+I, [2020-04-28T18:21:56.477753 #22855]  INFO -- : Request: GET /tests/123?cat='as'
+I, [2020-04-28T18:21:56.477895 #22855]  INFO -- : Handler: TestsController#show
+I, [2020-04-28T18:21:56.477982 #22855]  INFO -- : Parameters: {"cat"=>"'as'", :id=>"123"}
+I, [2020-04-28T18:21:56.478049 #22855]  INFO -- : Response: 200 [text/html] tests/show.html.erb
