@@ -2,7 +2,7 @@ require 'logger'
 
 class AppLogger
   def initialize(app, **options)
-    @logger = Logger.new(options[:logdev] || STDOUT)
+    @logger = Logger.new(options[:logdev])
     @app = app
   end
 
